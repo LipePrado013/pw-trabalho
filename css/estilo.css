@@ -72,9 +72,10 @@ article#cont{
 }
 
 .texto{
- background: #777777;
- padding: 10px;
- margin-right: 0px;
+    background: #777777;
+    padding: 10px;
+    margin-right: 0px;
+    font-size: 1.1em;
 }
 
 .img-index{
@@ -87,6 +88,7 @@ article#cont{
     float: right;
     background: #a09e9e; 
     width: 240px;
+    padding: 5px;
 }
 
 #rodape{
@@ -117,21 +119,17 @@ a:hover{
     padding: 8px 15px;
 }
 
-#area-nav a:hover{
+#area-nav a:hover {
     color: #ff0000;
     background: #520505;
     text-decoration: none;
     
 }
 
-#area-lateral a:link, #area-lateral a:visited {
-    color: white;
-    margin: 0 0 0 10px;
-}
+
 
 #area-lateral a:hover{
-    color: #ff0000;
-    
+    color: #ff1e00;
     text-decoration: none;
 }
 
