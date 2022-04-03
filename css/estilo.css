@@ -126,7 +126,10 @@ a:hover{
     
 }
 
-
+#area-lateral a:link, #area-lateral a:visited{
+    color: #fff;
+    margin: 0 0 0 10px;
+}
 
 #area-lateral a:hover{
     color: #ff1e00;
