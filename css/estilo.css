@@ -6,7 +6,7 @@
 body{
     font-size: 1em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: url('https://mrolympia.com/sites/mrolympia.com/themes/mrolympia/images/skins/MrOlympia2019Site_skin.jpg') top center no-repeat  #282828;
+    background: url('https://mrolympia.com/sites/mrolympia.com/themes/mrolympia/images/skins/MrOlympia2019Site_skin.jpg') top center no-repeat fixed #282828;
      
 }
 
@@ -20,7 +20,7 @@ body{
 
 #logo, #area-menu{
     padding: 10px;
-   /* border: 1px solid red;*/
+ /*   border: 1px solid red;*/
 }
 
 #logo{
@@ -32,49 +32,54 @@ body{
     margin-top: 10px;
     width: 1220px;
     margin: 0 auto;
+    /*border: 1px solid red;*/
     
 }
 
 #area-postagem{
     padding-top : 10px;
     float: left;
-    background: #a09e9e; /* #a09e9e postagem e lateral */
+    background: #8b8b8b; /*#8b8b8b postagem e lateral */
     width: 960px;
-   
+   /* border: 1px solid red;*/
 }
 #video{
     padding: 5px;
+  /*  border: 1px solid red;*/
     
 }
 iframe{
     border: #282828 solid 5px;
 }
 
-article#video{
-    float: left;
-    width: 560px;
-    margin-left: 20px;
-}
+
 article#video{
     float: left;
     width: 560px;
     margin-left: 5px;
+
 }
 
-article#cont{
+article.cont{
 
     float: left; 
     width: 330px;
-    margin-left: 25px;
+    margin-left: 40px;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
   
 }
 
+
+.texto1{
+    margin: 0px;
+    font-size: 1.1em;
+}
+
+
 .texto{
     background: #777777;
     padding: 10px;
-    margin-right: 0px;
     font-size: 1.1em;
 }
 
@@ -84,11 +89,29 @@ article#cont{
     height: 500px;
 }
 
+.noticia{
+    background: #282828;
+    padding-top: 0;
+   /* border: solid 1px red;*/
+    margin: 10px 10px 0 10px;
+    width: 700px;
+
+}
+
 #area-lateral{
     float: right;
-    background: #a09e9e; 
+    background: #8b8b8b; 
     width: 240px;
     padding: 5px;
+    /*border: 1px solid red;*/
+}
+
+#vip{
+    width:940px;
+    height:170px;
+    margin: 10px;
+   /* border: 1px solid red;*/
+
 }
 
 #rodape{
@@ -96,12 +119,18 @@ article#cont{
     text-align: center;
     background: #555555;
     padding: 15px;
+    /*border: 1px solid red;*/
 }
 
+.noticia p{
+    margin: 10px 0 15px 0;
+    padding: 10px;
+}
 
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+   /* border: 1px solid red;*/
 }
 
 
@@ -128,15 +157,13 @@ a:hover{
 
 #area-lateral a:link, #area-lateral a:visited{
     color: #fff;
-    margin: 0 0 0 10px;
+    margin: 5px;
 }
 
 #area-lateral a:hover{
     color: #ff1e00;
     text-decoration: none;
 }
-
-
 
 h1{
     color: #fc0606;
@@ -149,3 +176,9 @@ h1{
     clear: both;
 }
 
+p{
+   /* border: #520505 solid 1px;*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
